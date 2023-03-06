@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    <title>Main</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid bg-body-tertiary">
+        <a class="navbar-brand" href="index.html">Main</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+             
+              <li class="nav-item">
+                <a class="nav-link active" href="Movies.html">Movies</a>
+              </li>
+              <br>
+              <li class="nav-item">
+                <a class="nav-link active" href="directors.html">Directors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="actors.html">Actors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="aboutus.html">About me</a>
+              </li>
+          
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <center class="bg-dark text-white"><br>
+        <h1>Who Am I?</h1>
+        
+        <img src="me1.jpeg" alt="" width="400"><br>
+        <h5 class="text-white border-bottom specialdesign" >My name is Baki. I'm student of computer student in Adnan Menderes University. I work and develops to myself about Front-End. I also like cinema,science ,philosophy and I write blogs about this topics. You can contact to me below.</h5>
+      
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">  <form action="/action_page.php">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <input type="submit" value="Submit">
+            </form></div>
+            <div class="col-sm"> <p>if you like my website please click button.</p>
+              <button type="button"  class="btn btn-primary btn-lg">Do you like?</button>
+  
+            </div>
+            <div class="col-sm"><br><br> <button type="button" onClick="myFunction()" class="btn btn-primary btn-lg">Alert Button</button>
+            </div>
+          </div>
+        </div>
+      
+      </center>
+<
+      <div class="container bg-dark text-white border-top">
+        <div class="row">
+          <div class="col-sm">
+            <form action="/aboutus.html">  <p>Did you ever seen this movies?:</p>
+              <input type="radio" id="age1" name="age" value="30">
+              <label for="age1">Yes, I watched all </label><br>
+              <input type="radio" id="age2" name="age" value="60">
+              <label for="age2">Yes but not all </label><br>  
+              <input type="radio" id="age3" name="age" value="100">
+              <label for="age3"> I have never seen this movies </label><br><br>
+              <input type="submit" value="Submit"></form>
+          </div>
+          <div class="col-sm "><br>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown</button>
+              <div class="dropdown-content">
+                <ul>
+                  <li> <a href="Movies.html">Movies </a></li>
+                  <li>  <a href="directors.html">Directors</a></li>
+                  <li><a href="actors.html">Actors</a></li>
+                </ul>
+               
+              
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm"><br>
+            <form action="/action_page.php"><p> What's your favorite movie?:</p>
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1">Godfather 2s </label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> Seven Samurai</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3">The Good The Bad The Ugly</label><br><br>
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+     
+          </div>
+        </div>
+      <p>dont forget button</p>
+   <script> 
+   function myFunction(){
+    alert("Alert from javascript!");
+   }
+    
+    </script>
+</body>
+</html> 

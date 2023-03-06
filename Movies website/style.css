@@ -1,0 +1,9 @@
+.text-white{
+    color:white
+}
+.specialdesign {
+    font-family: "Times New Roman", Times, serif;
+    margin:10px;
+    font-size: large;
+    background: darkblue;
+  }
