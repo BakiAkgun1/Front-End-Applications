@@ -1,1 +1,2 @@
-When I learn Front-End path, I practised some static apps. That repository ontain that static apps.
+I practiced few static basic websites.
+If you want run, you should just click on html files with any browser.
